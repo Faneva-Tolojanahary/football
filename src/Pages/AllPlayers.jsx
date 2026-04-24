@@ -493,6 +493,7 @@ const AllPlayers = () => {
                       {/* Info */}
                       <div className="ap-card-body">
                         <h2 className="ap-player-name">{player.strPlayer}</h2>
+                         <p className="ap-team">Né le : </p> <h1> {player.dateBorn} </h1>
                         {player.strTeam && (
                           <p className="ap-team">
                             <span className="ap-team-dot" />
